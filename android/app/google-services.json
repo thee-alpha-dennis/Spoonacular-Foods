@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "248248666069",
+    "project_id": "spoonacullar",
+    "storage_bucket": "spoonacullar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248248666069:android:61c2261709885dadae1f5c",
+        "android_client_info": {
+          "package_name": "com.foodbuddy.food_buddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwt-BqiZzYA-s7UpZ5EcRk24_8wMT4QdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

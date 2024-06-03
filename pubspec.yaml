@@ -1,0 +1,68 @@
+name: food_buddy
+description: "A mobile application that allows you to make purchases of food items. Allows you to retrieve and display a list of food items from the Spoonacular API. Allows you to select multiple food items and store them in a shopping basket that they can check out at the end."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  animated_bottom_navigation_bar: ^1.2.0
+  cached_network_image: ^3.3.1
+  double_back_to_close: ^2.0.0
+  firebase_auth:
+  firebase_core:
+  http: ^1.2.0
+  flutter:
+    sdk: flutter
+  flutter_icons:
+    git:
+      url: https://github.com/imclerran/flutter-icons.git
+      ref: dart-3
+  velocity_x: 4.1.0
+  mobx: ^2.0.4
+  flutter_mobx: ^2.0.2
+  provider: ^6.0.5
+  cupertino_icons: ^1.0.6
+  dotted_line: ^3.1.0
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0
+  path_provider: ^2.1.1
+  freezed_annotation: ^2.4.1
+
+
+
+
+dev_dependencies:
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.1.7
+  mobx_codegen: ^2.0.1
+  freezed: ^2.4.3
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: "bold"
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+    - family: "semi-bold"
+      fonts:
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+    - family: "medium"
+      fonts:
+        - asset: assets/fonts/OpenSans-Medium.ttf
+    - family: "regular"
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+
+
+  uses-material-design: true
+
